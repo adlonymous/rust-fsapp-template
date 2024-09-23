@@ -18,5 +18,5 @@ Ok, so you're crazy enough to want to build a whole ass web application in Rust.
 - Clone the repository and cd into it
 - `docker compose up`
 - cd into the backend folder, make necessary changes and run `cargo run` to test the backend. This should start a local server on port 8000
-- cd into the frontend folder, make necessary changes, run 'cargo build --target wasm32-unknown-unknown' to build the frontend and then run 'trunk serve' to serve the frontend on port 8080
+- cd into the frontend folder, make necessary changes, run `cargo build --target wasm32-unknown-unknown` to build the frontend and then run `trunk serve` to serve the frontend on port 8080
 - Write more code, test it, and repeat
